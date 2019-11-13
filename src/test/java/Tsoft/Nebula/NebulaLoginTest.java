@@ -22,7 +22,7 @@ public class NebulaLoginTest {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\erick.gacitua\\eclipse-workspace\\Nebula\\src\\test\\resource\\chromedriver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("http://170.84.209.172/login");
+		driver.get("http://170.84.209.172/login"); 
 		
 		Helpers helper = new Helpers();
 		helper.sleepSeconds(4);
