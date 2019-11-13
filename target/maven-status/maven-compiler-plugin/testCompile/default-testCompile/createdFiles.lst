@@ -1,0 +1,3 @@
+helpers\Helpers.class
+pages\PageLogin.class
+Tsoft\Nebula\NebulaLoginTest.class
